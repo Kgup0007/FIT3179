@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Donut</title>
+    <title>Streamgraph</title>
     <meta charset="utf-8" />
 
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -16,13 +16,13 @@
     </style>
   </head>
   <body>
-    <h1>Donut Chart</h1>
+    <h1>Streamgraph</h1>
     <!-- Container for the visualization -->
     <div id="vis"></div>
 
     <script>
       // Assign the specification to a local variable vlSpec.
-      var vis = "js/donutchart.json";
+      var vis = "js/streamgraph.json";
 
       // Embed the visualization in the container with id `vis`
       vegaEmbed('#vis', vis).then(function(result) {

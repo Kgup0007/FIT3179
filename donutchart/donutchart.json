@@ -1,0 +1,29 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+    "width": "container",
+    "height":300,
+    "description": "A donut chart showing the part-whole relationship for each type of crime",
+    "selection": {
+      "type": {
+        "type": "multi", "fields": ["type"], "bind": "legend"
+      }
+    },
+    "data": {
+        "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/donutchart/Data/crime_type.csv"
+    },
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+        "theta": {"field": "amount", "type": "quantitative"},
+        "color": {"field": "type", "type": "nominal", "scale": {"scheme": "category10"}},
+        "tooltip": [
+            {"field": "type", "type": "nominal", "title": "Type"},
+            {"field": "amount", "type": "quantitative", "title": "Amount"}
+        ],
+        "opacity": {
+          "condition": {"selection": "type", "value": 1},
+          "value": 0.15
+        }
+    },
+    "view": {"stroke": null}
+}
+  
