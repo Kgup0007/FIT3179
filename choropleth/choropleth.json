@@ -10,7 +10,7 @@
     },
     "spec": {
         "width": 600,
-        "height": 350,
+        "height": 900,
         "data": {
             "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/Data/theft_break.csv"
         },
@@ -27,10 +27,10 @@
                 "lookup": "Neighbourhood",
                 "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/boston.json",
+                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/choropleth/boston.json",
                     "format": {
                         "type": "topojson",
-                        "feature": "local-area-boundary"
+                        "feature": "boston"
                     }
                 },
                 "key": "properties.name"
@@ -38,7 +38,7 @@
                 "as": "geo"
             }
         ],
-        "projection": {"type": "equirectangular"},
+        "projection": {"type": "conicEqualArea"},
         "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.2},
         "encoding": {
             "shape": {
