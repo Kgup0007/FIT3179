@@ -24,7 +24,7 @@
     },
     "color": {
       "field":"neighbourhood", 
-      "scale":{"scheme": "category20b"}
+      "scale":{"scheme": "category20"}
     },
     "opacity": {
       "condition": {"selection": "neighbourhood", "value": 1},

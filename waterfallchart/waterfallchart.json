@@ -51,7 +51,7 @@
           "field": "previous_sum",
           "type": "quantitative",
           "title": "Amount",
-          "scale": {"domainMin": 20000},
+          "scale": {"domainMin": 0},
           "axis": {"grid": false, "title": null, "tickCount": 5}
         },
         "y2": {"field": "sum"},

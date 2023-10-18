@@ -1,7 +1,7 @@
-year,neighbourhood,percentage
+﻿year,neighbourhood,percentage
 2004,Allston,8.63
 2004,Back Bay,-2.06
-2004,Bay Village,-46.25
+2004,Harbor Islands,-46.25
 2004,Beacon Hill,-21.23
 2004,Brighton,-10.64
 2004,Charlestown,18.25
@@ -22,9 +22,10 @@ year,neighbourhood,percentage
 2004,West End,-26.84
 2004,West Roxbury,-10.31514286
 2004,South Boston Waterfront,-10.79937662
+2004,Longwood,-11.28361039
 2005,Allston,46.04
 2005,Back Bay,20.69
-2005,Bay Village,32.65
+2005,Harbor Islands,32.65
 2005,Beacon Hill,-7.69
 2005,Brighton,-34
 2005,Charlestown,16.16
@@ -45,9 +46,10 @@ year,neighbourhood,percentage
 2005,West End,-7.06
 2005,West Roxbury,-15.15109524
 2005,South Boston Waterfront,-16.56357576
+2005,Longwood,-8.184472029
 2006,Allston,36.51
 2006,Back Bay,-6.42
-2006,Bay Village,0.84
+2006,Harbor Islands,0.84
 2006,Beacon Hill,-12.55
 2006,Brighton,11.41
 2006,Charlestown,0.62
@@ -68,9 +70,10 @@ year,neighbourhood,percentage
 2006,West End,-12.03
 2006,West Roxbury,6.771
 2006,South Boston Waterfront,7.561428571
+2006,Longwood,8.351857142
 2007,Allston,-6.28
 2007,Back Bay,11.21
-2007,Bay Village,-20.61
+2007,Harbor Islands,-20.61
 2007,Beacon Hill,-7.19
 2007,Brighton,-16.71
 2007,Charlestown,-12.94
@@ -91,9 +94,10 @@ year,neighbourhood,percentage
 2007,West End,-22.88
 2007,West Roxbury,-22.88
 2007,South Boston Waterfront,-22.88
+2007,Longwood,-5.897894737
 2008,Allston,-6.51
 2008,Back Bay,-2.85
-2008,Bay Village,-0.71
+2008,Harbor Islands,-0.71
 2008,Beacon Hill,-19.29
 2008,Brighton,0.44
 2008,Charlestown,31.09
@@ -114,9 +118,10 @@ year,neighbourhood,percentage
 2008,West End,27.06
 2008,West Roxbury,27.06
 2008,South Boston Waterfront,27.06
+2008,Longwood,16.88161765
 2009,Allston,-36.1
 2009,Back Bay,10.73
-2009,Bay Village,32.65
+2009,Harbor Islands,32.65
 2009,Beacon Hill,-1.92
 2009,Brighton,-29.41
 2009,Charlestown,13.89
@@ -137,9 +142,10 @@ year,neighbourhood,percentage
 2009,West End,22.83
 2009,West Roxbury,7.653856209
 2009,South Boston Waterfront,8.470811834
-2010,Allston,-4.72
+2009,Longwood,17.35497371
+2010,Allston,7.029654541
 2010,Back Bay,5.26
-2010,Bay Village,-9.18
+2010,Harbor Islands,-9.18
 2010,Beacon Hill,-1.04
 2010,Brighton,-8.71
 2010,Charlestown,-28.84
@@ -160,9 +166,10 @@ year,neighbourhood,percentage
 2010,West End,-40.49
 2010,West Roxbury,-21.14714286
 2010,South Boston Waterfront,-25.51285714
+2010,Longwood,-29.47106493
 2011,Allston,-1.64
 2011,Back Bay,-20.83
-2011,Bay Village,-3.16
+2011,Harbor Islands,-3.16
 2011,Beacon Hill,-17.39
 2011,Brighton,-11.18
 2011,Charlestown,19.26
@@ -183,9 +190,10 @@ year,neighbourhood,percentage
 2011,West End,4.24
 2011,West Roxbury,0.805714286
 2011,South Boston Waterfront,2.756428571
+2011,Longwood,-1.948939394
 2012,Allston,6.89
 2012,Back Bay,2.05
-2012,Bay Village,46.79
+2012,Harbor Islands,46.79
 2012,Beacon Hill,3.46
 2012,Brighton,12.79
 2012,Charlestown,-14.41
@@ -206,9 +214,10 @@ year,neighbourhood,percentage
 2012,West End,-0.99
 2012,West Roxbury,-4.705714286
 2012,South Boston Waterfront,-6.749642857
+2012,Longwood,0.156655844
 2013,Allston,-10.03
 2013,Back Bay,-2.23
-2013,Bay Village,12.17
+2013,Harbor Islands,12.17
 2013,Beacon Hill,23.53
 2013,Brighton,-0.32
 2013,Charlestown,-9.49
@@ -229,9 +238,10 @@ year,neighbourhood,percentage
 2013,West End,-9.09
 2013,West Roxbury,-11.92
 2013,South Boston Waterfront,-15.63714286
+2013,Longwood,-13.67805195
 2014,Allston,-16.49
 2014,Back Bay,-24.16
-2014,Bay Village,1.11
+2014,Harbor Islands,1.11
 2014,Beacon Hill,-4.66
 2014,Brighton,-4.31
 2014,Charlestown,-5.41
@@ -252,9 +262,10 @@ year,neighbourhood,percentage
 2014,West End,9.9
 2014,West Roxbury,-11.02785714
 2014,South Boston Waterfront,-12.96904762
+2014,Longwood,-11.28361039
 2015,Allston,38.74
 2015,Back Bay,9.74
-2015,Bay Village,-19.53
+2015,Harbor Islands,-19.53
 2015,Beacon Hill,13.97
 2015,Brighton,-9.68
 2015,Charlestown,20.71
@@ -275,9 +286,10 @@ year,neighbourhood,percentage
 2015,West End,-13.79
 2015,West Roxbury,18.31428571
 2015,South Boston Waterfront,19.92285714
+2015,Longwood,23.95123809
 2016,Allston,-7.6
 2016,Back Bay,-10.39
-2016,Bay Village,-14.98
+2016,Harbor Islands,-14.98
 2016,Beacon Hill,41.48
 2016,Brighton,-7.58
 2016,Charlestown,-1.62
@@ -298,9 +310,10 @@ year,neighbourhood,percentage
 2016,West End,-8.95
 2016,West Roxbury,-18.515
 2016,South Boston Waterfront,-27.008
+2016,Longwood,-13.58668182
 2017,Allston,6.28
 2017,Back Bay,-13.78
-2017,Bay Village,-18.49
+2017,Harbor Islands,-18.49
 2017,Beacon Hill,-30.67
 2017,Brighton,14.95
 2017,Charlestown,-0.53
@@ -321,9 +334,10 @@ year,neighbourhood,percentage
 2017,West End,8.66
 2017,West Roxbury,-12.36666667
 2017,South Boston Waterfront,-13.3252381
+2017,Longwood,-20.05071429
 2018,Allston,-8.64
 2018,Back Bay,-4.36
-2018,Bay Village,-7.22
+2018,Harbor Islands,-7.22
 2018,Beacon Hill,5.33
 2018,Brighton,21.01
 2018,Charlestown,0
@@ -344,9 +358,10 @@ year,neighbourhood,percentage
 2018,West End,17.56
 2018,West Roxbury,24.19333333
 2018,South Boston Waterfront,31.93904762
+2018,Longwood,32.5010582
 2019,Allston,12.69
 2019,Back Bay,21.98
-2019,Bay Village,-8.3
+2019,Harbor Islands,-8.3
 2019,Beacon Hill,5.78
 2019,Brighton,-2.14
 2019,Charlestown,36.06
@@ -367,3 +382,4 @@ year,neighbourhood,percentage
 2019,West End,2.37
 2019,West Roxbury,6.755
 2019,South Boston Waterfront,9.2
+2019,Longwood,7.002083333

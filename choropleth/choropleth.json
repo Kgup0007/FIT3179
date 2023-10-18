@@ -1,8 +1,8 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-    "description": "Changes in Theft and Break and Enter",
-    "title": {"text": "Percentage Change in \"Theft\" And \"Break and Enter\" Crimes From 2018 To 2019","fontSize": 16},
-    "repeat": {"row": ["Theft", "Break and Enter"]},
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "the population per state, engineers per state, and hurricanes per state",
+    "title": {"text": "Theft and Break and Enter Crimes in Boston Neighborhoods","fontSize": 16},
+    "repeat": {"row": ["Theft (%)", "Break and Enter (%)"]},
     "resolve": {
         "scale": {
             "color": "independent"
@@ -10,7 +10,7 @@
     },
     "spec": {
         "width": 600,
-        "height": 900,
+        "height": 600,
         "data": {
             "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/Data/theft_break.csv"
         },
@@ -27,18 +27,15 @@
                 "lookup": "Neighbourhood",
                 "from": {
                 "data": {
-                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/choropleth/boston.json",
-                    "format": {
-                        "type": "topojson",
-                        "feature": "boston"
-                    }
+                    "url": "https://raw.githubusercontent.com/Kgup0007/FIT3179/main/Boston_Neighborhood_Boundaries_Approximated_by_2020_Census_Tracts.json",
+                    "format": {"type": "topojson","feature": "Boston" }
                 },
-                "key": "properties.name"
+                "key": "properties.neighborhood"
                 },
                 "as": "geo"
             }
         ],
-        "projection": {"type": "conicEqualArea"},
+        "projection": {"type": "conicConformal"},
         "mark": {"type": "geoshape", "stroke": "black", "strokeWidth": 0.2},
         "encoding": {
             "shape": {
@@ -48,7 +45,7 @@
             "color": {
                 "field": {"repeat": "row"},
                 "type": "nominal",
-                "scale": {"type": "threshold", "domain": ["≥ 25", "≥ 10", "> 0", "0", "< 0", "≤ -10", "≤ -25"], "scheme": "redyellowgreen"}
+                "scale": {"type": "threshold", "domain": ["≥ 25", "≥ 10", "> 0", "0", "< 0", "≤ -10", "≤ -25"], "scheme": "redyellowblue"}
              },
             "tooltip": [
                 {"field": "Neighbourhood", "type": "nominal", "title": "Neighbourhood"},
@@ -58,4 +55,5 @@
         }
     }
 }
+  
   
